@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "on_arm_device",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "on_arm_device::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-on_arm_device-Debug-50abac91b6abb846c619.json",
+					"name" : "on_arm_device",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/wagnertamas/Documents/Munka/programoz\u00e1s/SUMO networks/gym_env_tester/on_arm_device/cmake-build-debug",
+		"source" : "/Users/wagnertamas/Documents/Munka/programoz\u00e1s/SUMO networks/gym_env_tester/on_arm_device"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

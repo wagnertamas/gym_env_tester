@@ -3,33 +3,69 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Dockerfiles/tract_minimal/Cargo.toml" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="70394c15-94f3-4b6c-823c-e4f8a836cb62" name="Changes" comment="Changed to chack linux and mac">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main_lightning.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main_torchRL.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onnx_main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train_pytorch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfiles/minimal_python/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfiles/minimal_python/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfiles/minimal_python/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfiles/onnx/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfiles/onnx/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfiles/onnx/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfiles/onnx/model.onnx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfiles/onnx_converter/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfiles/onnx_converter/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfiles/onnx_converter/convert_model.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfiles/onnx_converter/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfiles/onnx_converter/model.onnx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfiles/tract_minimal/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfiles/tract_minimal/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfiles/tract_minimal/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfiles/tract_minimal/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfiles/tract_minimal/model.onnx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfiles/tract_minimal/src/main.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model-4.onnx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traffic_light.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gym_env_tester.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gym_env_tester.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gym_envs/envs/traffic_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/gym_envs/envs/traffic_env.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gym_envs/envs/traffic_light_support_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/gym_envs/envs/traffic_light_support_functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_pytorch.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/main_pytorch.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model.onnx" beforeDir="false" afterPath="$PROJECT_DIR$/model.onnx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onnx_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/onnx_main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sumo_files/e1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sumo_files/e1_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sumo_files/e1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sumo_files/e1_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sumo_files/e1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sumo_files/e1_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sumo_files/e1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sumo_files/e1_3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sumo_files/e1_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sumo_files/e1_4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sumo_files/e1_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sumo_files/e1_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumo_files/osm.add.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sumo_files/osm.add.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wandb/debug-cli.wagnertamas.log" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/debug-cli.wagnertamas.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wandb/debug-internal.log" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/debug-internal.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wandb/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wandb/latest-run" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/latest-run" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="RsBuildProfile:dev" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -54,6 +90,13 @@
     &quot;accountId&quot;: &quot;1895948d-546c-4e9e-ae3e-b8c1923db680&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="boEkHbgq" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
@@ -61,38 +104,70 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2ijPmGdBGoi5XNXQrCS4Pf5gjZ3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Docker.Dockerfile.executor": "Run",
-    "Python.main_pytorch.executor": "Debug",
-    "Python.onnx_main.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.thread.executor": "Debug",
-    "Python.train_pytorch.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/wagnertamas/Documents/Munka/SUMO networks/gym_env_tester/gym_envs/envs",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cargo.Run tract_minimal.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.Dockerfile.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.Dockerfiles/minimal_python/Dockerfile builder.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.minimal_python.minimal_python: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.minimal_python.plc_nn_converter_instance: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.minimal_python: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.minimal_rust.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.onnx.plc_nn_converter_instance: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.onnx/Dockerfile.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.onnx: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.tract.plc_nn_converter_instance: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.tract_minimal.plc_nn_converter_instance: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.tract_minimal: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.tract_minimal: Dcokerfile.executor&quot;: &quot;Run&quot;,
+    &quot;Makefile Target.build (1).executor&quot;: &quot;Run&quot;,
+    &quot;Makefile Target.build.executor&quot;: &quot;Run&quot;,
+    &quot;Makefile Target.clean.executor&quot;: &quot;Run&quot;,
+    &quot;Makefile Target.export.executor&quot;: &quot;Run&quot;,
+    &quot;Makefile Target.onnx converter.executor&quot;: &quot;Run&quot;,
+    &quot;Makefile Target.run.executor&quot;: &quot;Run&quot;,
+    &quot;Python.context.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.main_pytorch.executor&quot;: &quot;Run&quot;,
+    &quot;Python.nn_interface.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.onnx_main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_env.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.thread.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.traffic_light.executor&quot;: &quot;Run&quot;,
+    &quot;Python.train_pytorch.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.rust.reset.selective.auto.import&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/wagnertamas/Documents/Munka/programozás/SUMO networks/gym_env_tester/Dockerfiles/tract&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
+    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="QodanaHighlightedReportService">
     <option name="localReportPersistedInfo">
       <LocalReportPersistedInfo>
         <option name="path" value="$PROJECT_DIR$/report_dynamo_export.sarif" />
         <option name="qodana" value="false" />
-        <option name="reportGuid" value="26fa39a3-b12c-451e-aa1b-e8544622d569" />
-        <option name="reportName" value="26fa39a3-b12c-451e-aa1b-e8544622d569" />
+        <option name="reportGuid" value="a486f594-68a6-4637-9899-9dcf76b2a4ad" />
+        <option name="reportName" value="a486f594-68a6-4637-9899-9dcf76b2a4ad" />
       </LocalReportPersistedInfo>
     </option>
   </component>
@@ -102,14 +177,65 @@
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription path="$PROJECT_DIR$/report_dynamo_export.sarif" qodana="false" reportGuid="26fa39a3-b12c-451e-aa1b-e8544622d569" reportId="26fa39a3-b12c-451e-aa1b-e8544622d569" />
+      <ReportDescription path="$PROJECT_DIR$/report_dynamo_export.sarif" qodana="false" reportGuid="169766e1-c7f7-4fae-8ab6-187fd4b29eb3" reportId="169766e1-c7f7-4fae-8ab6-187fd4b29eb3" />
+      <ReportDescription path="$PROJECT_DIR$/report_dynamo_export.sarif" qodana="false" reportGuid="a486f594-68a6-4637-9899-9dcf76b2a4ad" reportId="a486f594-68a6-4637-9899-9dcf76b2a4ad" />
     </option>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/gym_envs/envs" />
+      <recent name="$PROJECT_DIR$/Dockerfiles/tract" />
+      <recent name="$PROJECT_DIR$/Dockerfiles/onnx" />
+      <recent name="$PROJECT_DIR$/Dockerfiles/onnx_converter" />
+      <recent name="$PROJECT_DIR$/Dockerfiles/minimal_python" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Dockerfiles/tract/src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Makefile Target.build (1)">
+    <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command" nameIsGenerated="true">
+      <option name="buildProfileId" value="dev" />
+      <option name="command" value="run" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/Dockerfiles/tract_minimal" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="build (1)" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Dockerfiles/tract_minimal/Makefile" target="build" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Dockerfiles/minimal_python/Makefile" target="build" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="onnx converter" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile">
+      <makefile filename="$PROJECT_DIR$/Dockerfiles/onnx_converter/Makefile" target="" workingDirectory="$PROJECT_DIR$/Dockerfiles/onnx_converter" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Dockerfiles/tract_minimal/Makefile" target="run" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
     <configuration name="main_pytorch" type="PythonConfigurationType" factoryName="Python">
       <module name="gym_env_tester" />
       <option name="ENV_FILES" value="" />
@@ -119,7 +245,6 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="sumo_RL_pytorch" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -134,35 +259,95 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
-      <deployment type="dockerfile">
-        <settings>
-          <option name="imageTag" value="python_onnx_builder" />
-          <option name="containerName" value="" />
-          <option name="sourceFilePath" value="Dockerfile" />
-        </settings>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
       </deployment>
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile" />
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="onnx.plc_nn_converter_instance: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="containerName" value="" />
+          <option name="services">
+            <list>
+              <option value="plc_nn_converter_instance" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="Dockerfiles/onnx/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="tract_minimal: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="envFilePath" value="" />
+          <option name="sourceFilePath" value="Dockerfiles/tract_minimal/docker-compose.yml" />
+          <option name="upDetach" value="false" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="tract_minimal: Dcokerfile" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="tract_minimal" />
+          <option name="containerName" value="" />
+          <option name="sourceFilePath" value="Dockerfiles/tract_minimal/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="tract_minimal.plc_nn_converter_instance: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="envFilePath" value="" />
+          <option name="services">
+            <list>
+              <option value="plc_nn_converter_instance" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="Dockerfiles/tract_minimal/docker-compose.yml" />
+        </settings>
+      </deployment>
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Docker.Dockerfile" />
+      <item itemvalue="Docker.tract_minimal: Compose Deployment" />
+      <item itemvalue="Docker.tract_minimal: Dcokerfile" />
+      <item itemvalue="Docker.onnx.plc_nn_converter_instance: Compose Deployment" />
+      <item itemvalue="Docker.tract_minimal.plc_nn_converter_instance: Compose Deployment" />
+      <item itemvalue="Makefile Target.onnx converter" />
+      <item itemvalue="Makefile Target.build (1)" />
+      <item itemvalue="Makefile Target.build" />
+      <item itemvalue="Makefile Target.run" />
       <item itemvalue="Python.main_pytorch" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="Makefile Target.build (1)" />
+        <item itemvalue="Makefile Target.run" />
+        <item itemvalue="Makefile Target.build" />
+        <item itemvalue="Docker.tract_minimal.plc_nn_converter_instance: Compose Deployment" />
+        <item itemvalue="Docker.onnx.plc_nn_converter_instance: Compose Deployment" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18034.82" />
-        <option value="bundled-python-sdk-975db3bf15a3-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18034.82" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-PY-243.21565.199" />
+        <option value="bundled-python-sdk-cab1f2013843-4ae2d6a61b08-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.21565.199" />
       </set>
     </attachedChunks>
   </component>
@@ -190,6 +375,51 @@
       <workItem from="1721316771375" duration="7767000" />
       <workItem from="1721572492243" duration="15009000" />
       <workItem from="1721603381280" duration="12626000" />
+      <workItem from="1722618279356" duration="5626000" />
+      <workItem from="1722679333098" duration="607000" />
+      <workItem from="1722687733940" duration="1199000" />
+      <workItem from="1723495639987" duration="8000" />
+      <workItem from="1724860302887" duration="617000" />
+      <workItem from="1726182039958" duration="1223000" />
+      <workItem from="1726185079460" duration="1301000" />
+      <workItem from="1727203581901" duration="9787000" />
+      <workItem from="1727779182691" duration="3243000" />
+      <workItem from="1727873527897" duration="602000" />
+      <workItem from="1728395523693" duration="599000" />
+      <workItem from="1728552332696" duration="6848000" />
+      <workItem from="1728904727867" duration="17272000" />
+      <workItem from="1729353296843" duration="4521000" />
+      <workItem from="1732738110606" duration="1927000" />
+      <workItem from="1734369885497" duration="4459000" />
+      <workItem from="1734392985946" duration="598000" />
+      <workItem from="1734423620978" duration="599000" />
+      <workItem from="1734541553445" duration="18154000" />
+      <workItem from="1734960913248" duration="11443000" />
+      <workItem from="1735850006040" duration="3917000" />
+      <workItem from="1735907785382" duration="23000" />
+      <workItem from="1735907815098" duration="323000" />
+      <workItem from="1736171590804" duration="3072000" />
+      <workItem from="1736201395866" duration="15325000" />
+      <workItem from="1736548043271" duration="42451000" />
+      <workItem from="1736848549680" duration="185000" />
+      <workItem from="1736848830462" duration="7568000" />
+      <workItem from="1737053348157" duration="7450000" />
+      <workItem from="1737312244831" duration="18662000" />
+      <workItem from="1739264499495" duration="884000" />
+      <workItem from="1739870748923" duration="13101000" />
+      <workItem from="1739951868140" duration="1655000" />
+      <workItem from="1739972587049" duration="6201000" />
+      <workItem from="1739979232568" duration="15025000" />
+      <workItem from="1740393938654" duration="33000" />
+      <workItem from="1740393983121" duration="16159000" />
+      <workItem from="1740556166472" duration="27000" />
+      <workItem from="1740565602930" duration="1677000" />
+      <workItem from="1740695841714" duration="612000" />
+      <workItem from="1741164588843" duration="1128000" />
+      <workItem from="1741167931543" duration="8509000" />
+      <workItem from="1741611788910" duration="20000" />
+      <workItem from="1741774004526" duration="3171000" />
+      <workItem from="1741879012291" duration="903000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -259,39 +489,37 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
-          <url>notebook:///Users/wagnertamas/Documents/Munka/SUMO networks/gym_env_tester/main_torchRL.ipynb</url>
-          <line>70</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
-          <url>notebook:///Users/wagnertamas/Documents/Munka/SUMO networks/gym_env_tester/main_torchRL.ipynb</url>
-          <line>79</line>
-          <option name="timeStamp" value="6" />
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_env.py</url>
+          <line>142</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file:///opt/anaconda3/envs/sumo_RL_pytorch/lib/python3.11/site-packages/torchrl/data/tensor_specs.py</url>
-          <line>1450</line>
-          <option name="timeStamp" value="5" />
+          <url>file://$PROJECT_DIR$/test_env.py</url>
+          <line>165</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/train_pytorch.py</url>
-          <line>159</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/onnx_main.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="12" />
+          <url>file://$PROJECT_DIR$/test_env.py</url>
+          <line>156</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/gym_env_tester$main_pytorch.coverage" NAME="main_pytorch Coverage Results" MODIFIED="1721579677348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/gym_env_tester$test.coverage" NAME="test Coverage Results" MODIFIED="1720823320139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/gym_env_tester$thread.coverage" NAME="thread Coverage Results" MODIFIED="1721581726916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/opt/anaconda3/envs/sumo_RL_pytorch/lib/python3.11/concurrent/futures" />
-    <SUITE FILE_PATH="coverage/gym_env_tester$onnx_main.coverage" NAME="onnx_main Coverage Results" MODIFIED="1721653095803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/gym_env_tester$train_pytorch.coverage" NAME="train_pytorch Coverage Results" MODIFIED="1721581815262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gym_env_tester$test.coverage" NAME="test Coverage Results" MODIFIED="1720823320139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gym_env_tester$traffic_light.coverage" NAME="traffic_light Coverage Results" MODIFIED="1735907658931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gym_env_tester$context.coverage" NAME="context Coverage Results" MODIFIED="1736422966211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/opt/anaconda3/envs/sumo_RL_pytorch/lib/python3.11/site-packages/pymodbus/datastore" />
+    <SUITE FILE_PATH="coverage/gym_env_tester$nn_interface.coverage" NAME="nn_interface Coverage Results" MODIFIED="1736850675238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dockerfiles/minimal_python" />
+    <SUITE FILE_PATH="coverage/gym_env_tester$main_pytorch.coverage" NAME="main_pytorch Coverage Results" MODIFIED="1734960967956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/gym_env_tester$test_env.coverage" NAME="test_env Coverage Results" MODIFIED="1741091995211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gym_env_tester$onnx_main.coverage" NAME="onnx_main Coverage Results" MODIFIED="1722619047622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -1,0 +1,3 @@
+/Users/wagnertamas/Documents/Munka/programozás/SUMO networks/gym_env_tester/C_GUI/cmake-build-debug/CMakeFiles/C_GUI.dir
+/Users/wagnertamas/Documents/Munka/programozás/SUMO networks/gym_env_tester/C_GUI/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/wagnertamas/Documents/Munka/programozás/SUMO networks/gym_env_tester/C_GUI/cmake-build-debug/CMakeFiles/rebuild_cache.dir
